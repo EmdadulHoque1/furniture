@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@500;600;700;800&display=swap');
+/********************************* * ! Style rules for defult section **********************************/
+ *{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     text-transform: capitalize;
+}
+/********************************* * ! Style rules for common componant section **********************************/
+ .container{
+     max-width: 1390px;
+     margin: 0 auto;
+}
+ body{
+     font-family: 'Lato', sans-serif;
+     font-family: 'Montserrat', sans-serif;
+}
+ p{
+     color: var(--black-3, #7E7F7C);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+}
+ h4{
+     color: var(--black-1, #2F302C);
+     font-family: Lato;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 28px;
+}
+ h2{
+     color: var(--black-1, #2F302C);
+     text-align: center;
+     font-family: Lato;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 40px;
+}
+ section{
+     padding: 82px 0;
+}
+/********************************* * ! Style rules for navber section **********************************/
+ nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 60px 0;
+}
+ nav ul{
+     display: flex;
+}
+ nav ul li{
+     margin-left: 44px;
+}
+ nav ul li a{
+     color: var(--black-1, #2F302C);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 20px;
+}
+ .nav-link a{
+     display: inline-flex;
+     align-items: center;
+     color: var(--black-1, #2F302C);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 20px;
+}
+ .cart{
+     margin-left: 44px;
+}
+/********************************* * ! Style rules for.. hero section **********************************/
+ .hero-area{
+     background-image: url(image/Rectangle\ 1.png);
+     background-repeat: no-repeat;
+}
+ .hero-test{
+     margin-left: 1008px;
+}
+ .h4{
+     padding: 114px 0 20px 0;
+}
+ .h4-2{
+     margin: 52px 0 20px 0;
+}
+ h1{
+     color: #2F302C;
+     font-family: Montserrat;
+     font-size: 96px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 100px;
+}
+ h1 span{
+     font-weight: 700;
+}
+ .hero-test p{
+     padding-bottom: 130px;
+}
+/********************************* * ! Style rules for.. cart section **********************************/
+ .cart-parent{
+     display: flex;
+     justify-content: space-between;
+     gap: 36px;
+}
+ .cart-1 a{
+     color: var(--black-3, #7E7F7C);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+}
+ .arrow-flex{
+     display: flex;
+     align-items: center;
+     margin-left: 25px;
+}
+ .arrow{
+     margin-top: 7px;
+}
+ .cart-1{
+     position: relative;
+     width: 321px;
+     height: 584px;
+     flex-shrink: 0;
+     background: #F7F7F7;
+}
+ .card-img-1{
+     position: absolute;
+     right: 82px;
+}
+ .card-img-2{
+     position: absolute;
+     right: 32px;
+}
+ .cart-1 h4{
+     margin:330px 24px 32px;
+}
+ .cart-1 p{
+     margin:0 50px 38px 25px;
+}
+ .cart-2{
+     height: 584px;
+     background: #E6EFEA;
+     text-align: center;
+}
+ .cart-2 h4{
+     margin: 48px 0 24px;
+}
+ .arrow-flex-2{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 18px 0px 97px 0;
+}
+ .arrow-flex-2 a{
+     color: var(--black-3, #7E7F7C);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+}
+ .arrow-2{
+     margin-top: 7px;
+}
+ .cart-3{
+     width: 321px;
+     height: 594px;
+     flex-shrink: 0;
+     background: #F7F7F7;
+}
+ .cart-3 h4{
+     margin: 48px 0px 24px 36px;
+}
+ .cart-3 p{
+     margin:0 0 0px 36px;
+}
+ .arrow-flex-3{
+     display: flex;
+     margin: 38px 0px 96px 32px;
+     align-items: center;
+}
+ .arrow-flex-3 a{
+     color: var(--black-3, #7E7F7C);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+}
+ .arrow-3{
+     margin-top: 7px;
+}
+ .card-img-3{
+     margin-left: 58px;
+}
+/********************************* * ! Style rules for.. section **********************************/
+ .by-parent{
+     display: grid;
+     grid-template-columns: repeat(6,1fr);
+     gap: 68px;
+     justify-content: space-between;
+}
+ .by-sec h2{
+     margin-bottom: 72px;
+}
+/********************************* * ! Style rules for..FEATURED PRODUCTS section **********************************/
+ .product-nav ul{
+     display: flex;
+     justify-content: center;
+     margin:36px 0 72px 0px ;
+}
+ .product-nav ul li{
+     margin: 0 24px;
+}
+ .product-nav ul li a{
+     color: var(--black-1, #2F302C);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 20px;
+     padding-bottom: 5px;
+}
+ .product-nav ul li a:hover,.active{
+     border-bottom:3px solid #2F302C;
+}
+ .product-parent{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap:36px ;
+     text-align: center;
+}
+ .product-cart p{
+     color: var(--black-1, #2F302C);
+     text-align: center;
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+     margin: 32px 0px 12px 0;
+}
+ .product-cart h5{
+     color: var(--black-1, #2F302C);
+     font-family: Lato;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 28px;
+     margin-top: 12px;
+}
+ .p-cart-4{
+     margin-top: 36px;
+}
+ .choose-parent{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-gap:68px ;
+     text-align: center;
+     justify-content: space-between;
+     margin-top: 72px;
+}
+ .choose-cart{
+     display: flex;
+     width: 348px;
+     margin: auto;
+     flex-direction: column;
+     align-items: center;
+     gap: 24px;
+}
+ .choose-cart h4{
+     color: var(--black-1, #2F302C);
+     text-align: center;
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 20px;
+}
+ .choose-cart p{
+     color: var(--black-3, #7E7F7C);
+     text-align: center;
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+}
+/********************************* * ! Style rules for.. light section **********************************/
+ .light-section{
+}
+ .light-parent{
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+     background: var(--black-7, #F6F6F6);
+     width: 1392px;
+     height: 363px;
+}
+ .light-cart-1 h3{
+     color: var(--black-1, #2F302C);
+     font-family: Lato;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 40px;
+     margin: 68px 0px 16px 80px;
+}
+ .light-cart-1 .icon{
+     margin: 0px 0 36px 80px;
+}
+ .light-cart-1 p{
+     color: var(--black-3, #7E7F7C);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 20px;
+     text-decoration: line-through;
+     margin-left: 80px;
+}
+ .red-cart{
+     display: flex;
+     gap: 16px;
+     margin: 9px 0 78px 68px;
+}
+ .red-cart h6{
+     border-radius: 4px;
+     background: #CE0000;
+     display: inline-flex;
+     padding: 4px 8px;
+     align-items: flex-start;
+     gap: 10px;
+     color: var(--black-8, #FFF);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 20px;
+}
+ .light-img{
+     position: absolute;
+     left: 497px;
+}
+ .light-cart-3 p{
+     color: var(--black-3, #7E7F7C);
+     text-align: right;
+    /* H3/16/Medium */
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+     margin: 80px 80px 72px 0;
+}
+ .btn{
+     color: var(--bg-1, #FFF);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+     display: flex;
+     width: 224px;
+     padding: 12px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     margin-left: 130px;
+     background: var(--black-1, #2F302C);
+}
+/********************************* * ! Style rules for.. blog section **********************************/
+ .blog-p{
+     color: var(--black-3, #7E7F7C);
+     text-align: center;
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 20px;
+     margin: 36px 0px 72px 0;
+}
+ .blog-cart-parent{
+     display: flex;
+     gap: 36px;
+}
+ .blog-cart h5{
+     color: var(--black-1, #2F302C);
+     font-family: Lato;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 28px;
+}
+ .blog-cart p{
+     overflow: hidden;
+     color: var(--black-3, #7E7F7C);
+     text-overflow: ellipsis;
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+     margin: 24px 0 16px 0;
+}
+ .blog-btn button{
+     border: none;
+     margin: 0 12px 0 0;
+     padding: 10px;
+     align-items: flex-start;
+     gap: 10px;
+     background: var(--black-7, #F6F6F6);
+     color: var(--black-1, #2F302C);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+}
+/********************************* * ! Style rules for footer section **********************************/
+ footer{
+     padding: 20px 0;
+}
+ .footer-parent{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+     padding-bottom: 48px;
+}
+ .footer-card h5{
+     color: var(--black-1, #2F302C);
+     font-family: Lato;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: 28px;
+}
+ .footer-card p{
+     color: var(--black-3, #7E7F7C);
+     font-family: Lato;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 20px;
+     margin: 28px 0;
+}
+ .footer-card h5{
+     color: #000;
+     font-size: 16px;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+}
+ .footer-card input{
+     border: none;
+     color: #9F9F9F;
+     font-size: 14px;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: 400;
+     margin:53px 0 3px 0;
+     line-height: normal;
+     border-bottom: 1px solid #000000;
+}
+ .subs{
+     color: #000;
+     font-size: 14px;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     border: none;
+     background: none;
+     margin-bottom: 6px;
+     border-bottom: 1px solid #000;
+}
+ .footer{
+     margin-left:20rem;
+}
+ .copy{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 72px 0;
+}
+ .social-icon{
+     display: flex;
+     align-items: center;
+     gap: 32px;
+}
